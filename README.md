@@ -1,7 +1,6 @@
 # QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS
 
-ABSTRACT
-This paper explores oral diseases identification using hybrid quantum-classical neural networks
+This experiment explores oral diseases identification using hybrid quantum-classical neural networks
 (HQCNN) and quantum convolutional neural networks (QCNN). We investigated the possibilities
 of quantum machine learning in processing complicated dental image data. A whole dataset of oral
 disease images was preprocessed to improve model generalization using data augmentation and class
