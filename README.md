@@ -6,56 +6,67 @@
 <img width="4608" height="3456" alt="2" src="https://github.com/user-attachments/assets/d63de26f-e573-4d06-9341-6050cb48bd04" />
 
 
-01. ABSTRACT
+Quantum Machine Learning in Dental Diagnostics
 
-Around the half of the population in the world are affected by oral diseases, making it one of the
-most common health conditions. Quantum implementation in medical domain has revealed its
-potential and versatile applicability especially in medical imaging. This paper explores oral disease
-identification using hybrid quantum-classical neural networks (HQCNN) and quantum convolution
-neural networks (QCNN). Our work investigates the possibilities of quantum machine learning in
-processing complicated dental image data and the contributions it can make in oral healthcare. We
-implemented a hybrid and a pure QNN leveraging Qiskit framework and a whole dataset of annotated
-oral disease dataset. Our 8 qubit structured QCNN model and 2 qubit architecture of HQCNN model
-extract the image features by encoding the features into quantum circuits enabling more expressive
-demonstration employing fewer parameters. The final result showcases that QCNN and HQCNN
-perform better than CNNs in disease classification and promise better accuracy, generalization and
-computational efficiency. This experiment highlights a pioneering step in applying quantum inspired
-models for oral diagnostics, identifying promising avenues for improving oral healthcare worldwide.
+Almost half of the world's population has oral diseases, but it is still very challenging to identify them early and accurately. Traditional deep learning techniques frequently necessitate extensive labeled datasets and encounter challenges related to noise, overlapping anatomical structures, and overfitting. We were interested in quantum machine learning (QML) for medical imaging, so we wanted to see if hybrid quantum-classical neural network models could improve oral disease diagnostics by giving us results that were more accurate, easier to understand, and more useful.
 
-02. OBJECTIVE
+What it does
 
-1. To make sure the dataset was optimum for training quantum models, a varied collection of
-oral disease photos was gathered and preprocessed using rotation, shape, scaling, and splitting.
-ADASYN was used to correct imbalanced classes.
-2. Two novel quantum architectures, the Hybrid Quantum-Classical Neural Network (HQCNN)
-and the Quantum Convolution Neural Network (QCNN), were created and put into use with
-the express purpose of identifying images of oral diseases.
-3. To improve model performance and interpretability, a novel "GrandCam Decision
-Boundaries" method—possibly a custom visualization or decision-making technique—was
-added, along with integrated PCA for dimensionality reduction and angle encoding for quantum
-state preparation.
-4. Tested the performance of HQCNN and QCNN using a preprocessed dataset to identify the
-most efficient model for oral disease categorization.
-5. Emphasized the possibilities of quantum machine learning in medical imaging since quantum
-models stand out in managing high-dimensional data and extracting complex features
+We use Hybrid Quantum-Classical Convolutional Neural Networks (HQCNN) and Quantum Convolutional Neural Networks (QCNN) to sort images of oral diseases like dental calculus and hypodontia.
 
-03. METHODOLOGY
-  
- Preparing Data:
- Dataset: A set of dental photos from Kaggle that depict different oral conditions (such as cavities and discolouration).
- Data Preprocessing: Class balancing with ADASYN and data augmentation (rotation, flipping, scaling, and noise
- addition).
- Dimensionality Reduction & Angel Encoding: Dimensions are reduced using Principal Component Analysis (PCA),
- and the features that are produced are scaled for angle encoding in quantum circuits.
- Model Structures:
- HQCNN: Combines a quantum layer with traditional convolutional layers. The foundation of the quantum layer
- consists of parameterized quantum circuits that enable backpropagation via parameter shift rules (by employing RY
- rotation gates and σz measurements).
- QCNN: Reduces the dimensionality of the quantum state prior to measurement by applying alternating quantum
- convolutional and pooling layers after encoding images into quantum states using a feature map (such as Qiskit's
- ZFeatureMap).
- Training Specifics:
- Optimization: Cross-entropy loss optimizers such as Adam (for HQCNN) and COBYLA (for QCNN) are used to train both
- models.
- Architectural Tuning: Various quantum encoding methods are tested, together with variations in the number of qubits
- and circuit depth
+Our results show that with an accuracy of 88.73%, HQCNN exceeded QCNN in binary
+classification. With a top accuracy of 65.92% utilizing a 3-qubit architecture, HQCNN displayed decent performance for multi-class classification.
+
+Furthermore, the HQCNN, which has a ResNet18 backbone and a 2-qubit quantum layer, achieves an accuracy of 99.8%.
+
+ With an 8-qubit, 100-epoch QCNN, it registered a lower accuracy of 68.75% in binary classification. Additionally, QCNN, which has 8 qubits and quantum pooling, got about 72% accuracy after applying the preprocessing technique.
+
+Both do better than classical CNNs, showing that quantum-enhanced diagnostics could be useful. These models demonstrate that quantum feature extraction, even with a limited number of qubits, can improve generalization and decrease the number of parameters.
+
+How we made it
+
+We used the Kaggle oral disease dataset (calculus and hypodontia). We applied preprocessing techniques such as resizing and normalization, along with augmentations such as flipping, rotating, and Gaussian blur.
+
+HQCNN:
+
+ResNet18 feature extractor → dimension reduced to 2 → fed into a 2-qubit parameterized quantum circuit with Ry + CNOT gates. PyTorch autograd is combined with the HQCNN for mixed optimization.
+
+QCNN:
+
+Used PCA + ZFeatureMap to turn 16×16 grayscale images into 8 qubits. 
+Made layers of quantum convolution and pooling that switch back and forth in Qiskit.
+
+Training:
+
+We used the Adam optimizer to schedule the learning rate.
+We used a 5-fold cross-validation method with early stopping.
+Accuracy, precision, recall, F1, and AUROC are used to evaluate.
+The cloud setup involved using Google Colab with a Tesla K80 GPU and Qiskit AerSimulator for the quantum layers.
+
+Things that were hard for us
+
+The data encoding bottleneck is the process of mapping high-dimensional dental images into a small number of qubit states.
+Noise affected the training of variational circuits.
+Simulation overhead: HQCNN took longer to run than CNN.
+Interpretability: It was challenging to fill in the "black box" gap, so we used Grad-CAM and LIME to make things clearer.
+
+Things we've done that we're proud of
+
+This is the first time that HQCNN (which has a ResNet18 backbone and a 2-qubit quantum layer) has been used to diagnose oral diseases. 
+It got 99.8% accuracy, which is better than the CNN and QCNN baselines.
+Successfully showed that heatmaps can be used to interpret data, allowing dentists to check model predictions visually.
+Created a framework that can grow and be used for other medical imaging tasks.
+
+What we found out
+
+Quantum layers can greatly improve feature learning while using fewer parameters.
+In real-world datasets, hybrid designs often work better than pure quantum designs.
+In healthcare AI, being able to understand is just as important as being accurate.
+Quantum models appear promising, but hardware issues remain a significant challenge.
+
+What comes next for quantum machine learning in dental diagnostics?
+
+Add more classes, like gingivitis, caries, and oral cancer.
+Go from simulations (Qiskit Aer) to real quantum hardware.
+Make circuits that can handle noise and new ways to encode data.
+Work with dentists to make sure that it works in real-life clinical settings.
