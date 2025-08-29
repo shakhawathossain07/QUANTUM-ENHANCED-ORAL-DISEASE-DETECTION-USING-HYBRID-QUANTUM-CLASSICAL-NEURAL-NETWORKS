@@ -1,11 +1,10 @@
-# Quantum Machine Learning in Dental Diagnostics
+# QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS
 
-<img width="4608" height="3456" alt="1" src="https://github.com/user-attachments/assets/a0a4b856-998a-4e01-a448-2c200b7f0515" />
+<img width="4608" height="3456" alt="1" src="https://github.com/user-attachments/assets/252d66a2-aeeb-42f2-a24f-dc16d57e6bf8" />
 
-<img width="4608" height="3456" alt="2" src="https://github.com/user-attachments/assets/24680a8e-968a-4e9e-b20b-ac57f4ee2c18" />
+<img width="4608" height="3456" alt="2" src="https://github.com/user-attachments/assets/65b24aec-f7c0-4167-8e58-6b331dfe7302" />
 
-
-Quantum Machine Learning in Dental Diagnostics
+QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS
 
 Almost half of the world's population has oral diseases, but it is still very challenging to identify them early and accurately. Traditional deep learning techniques frequently necessitate extensive labeled datasets and encounter challenges related to noise, overlapping anatomical structures, and overfitting. We were interested in quantum machine learning (QML) for medical imaging, so we wanted to see if hybrid quantum-classical neural network models could improve oral disease diagnostics by giving us results that were more accurate, easier to understand, and more useful.
 
