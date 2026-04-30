@@ -1,7 +1,12 @@
 # QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS
 
+<img width="208" height="114" alt="image" src="https://github.com/user-attachments/assets/a0de2c48-a8ba-4957-b064-b22fa8fdbb4d" />
+
+
 
 ABSTRACT
+
+
 Around the half of the population in the world are affected by oral diseases, making it one of the
 most common health conditions. Quantum implementation in medical domain has revealed its
 potential and versatile applicability especially in medical imaging. This paper explores oral disease
