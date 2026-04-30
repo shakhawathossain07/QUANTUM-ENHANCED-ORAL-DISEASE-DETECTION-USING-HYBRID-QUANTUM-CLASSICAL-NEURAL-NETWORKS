@@ -1,8 +1,6 @@
 # QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS
 
-<img width="4608" height="3456" alt="1" src="https://github.com/user-attachments/assets/252d66a2-aeeb-42f2-a24f-dc16d57e6bf8" />
 
-<img width="4608" height="3456" alt="2" src="https://github.com/user-attachments/assets/65b24aec-f7c0-4167-8e58-6b331dfe7302" />
 
 QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS
 
