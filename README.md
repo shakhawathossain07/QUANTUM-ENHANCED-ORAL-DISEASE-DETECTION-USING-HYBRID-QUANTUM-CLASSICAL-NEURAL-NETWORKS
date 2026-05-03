@@ -20,6 +20,8 @@ demonstration employing fewer parameters. The final result showcases that QCNN a
 perform better than CNNs in disease classification and promise better accuracy, generalization and
 computational efficiency. This experiment highlights a pioneering step in applying quantum inspired
 models for oral diagnostics, identifying promising avenues for improving oral healthcare worldwide.
+
+
 Keywords Quantum Machine Learning · Hybrid Quantum-Classical Neural Networks (HQCNN) · Quantum
 Convolution Neural Networks (QCNN) · Oral Diseases Detection · Parameterized Quantum Circuits · Principal
 Component Analysis (PCA) · Angle Encoding
