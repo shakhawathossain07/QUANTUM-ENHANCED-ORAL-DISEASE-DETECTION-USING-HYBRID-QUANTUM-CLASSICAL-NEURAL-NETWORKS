@@ -33,7 +33,7 @@ Keywords Quantum Machine Learning · Hybrid Quantum-Classical Neural Networks (H
 Convolution Neural Networks (QCNN) · Oral Diseases Detection · Parameterized Quantum Circuits · Principal
 Component Analysis (PCA) · Angle Encoding
 
-**📌 All coding and writing were carried out independently by the authors (Md. Shakhawat Hossain and Md. Mehedi Hasan), based on publicly available resources including this video tutorial: https://www.youtube.com/watch?v=IohyKm9c4_Q and relevant blog posts https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html, 📌 and not by the Academy; 📌 modified code retains Apache 2.0 notices and the extended codebase is released under the MIT License.** 📌
+**📌 All coding and writing were carried out independently by the authors (Md. Shakhawat Hossain and Md. Mehedi Hasan), based on publicly available resources including this video tutorial: https://www.youtube.com/watch?v=IohyKm9c4_Q and relevant blog posts https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html, https://files.batistalab.com/teaching/attachments/chem584/vic_hqcnn.pdf 📌 and not by the Academy; 📌 modified code retains Apache 2.0 notices and the extended codebase is released under the MIT License.** 📌
 
 
 <p align="center">
