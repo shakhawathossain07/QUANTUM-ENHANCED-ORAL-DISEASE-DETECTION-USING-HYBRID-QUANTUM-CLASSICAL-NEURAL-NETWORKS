@@ -2,7 +2,12 @@
 
 <img width="208" height="114" alt="image" src="https://github.com/user-attachments/assets/a0de2c48-a8ba-4957-b064-b22fa8fdbb4d" />
 
+## 📜 Disclaimer
 
+This project builds upon the Quantum Convolutional Neural Network (QCNN) framework by Isaac Cong et al., **with implementations adapted from IBM’s Qiskit.
+Parts of the code are modified from original Qiskit resources and retain required Apache License 2.0 notices and attributions.**
+This work is part of a Qiskit-based project and complies with **IBM licensing policies.**
+**The extended codebase is released under the MIT License, allowing free use, modification, and distribution.**
 
 ABSTRACT
 
