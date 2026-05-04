@@ -4,6 +4,7 @@
 
 ## 📜 Disclaimer
 
+**The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem.**
 This project builds upon the Quantum Convolutional Neural Network (QCNN) framework by Isaac Cong et al., **with implementations adapted from IBM’s Qiskit.
 Parts of the code are modified from original Qiskit resources and retain required Apache License 2.0 notices and attributions.**
 This work is part of a Qiskit-based project and complies with **IBM licensing policies.**
