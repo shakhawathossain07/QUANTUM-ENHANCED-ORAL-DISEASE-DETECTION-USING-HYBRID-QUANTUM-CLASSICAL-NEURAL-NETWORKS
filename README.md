@@ -37,6 +37,7 @@ Component Analysis (PCA) · Angle Encoding
 
 <img width="421" height="199" alt="Screenshot 2026-05-04 210724" src="https://github.com/user-attachments/assets/93b2a202-ba08-4b9a-9994-9ff08fb470df" />
 
+📌 📌 The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem. 📌 📌
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/61a2a12b-bc4b-4c24-bdc9-50536a279d1e" 
