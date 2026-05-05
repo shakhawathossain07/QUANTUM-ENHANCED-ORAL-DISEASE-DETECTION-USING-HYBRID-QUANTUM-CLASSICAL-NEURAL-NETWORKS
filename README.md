@@ -8,8 +8,6 @@ Parts of the code are modified from original Qiskit resources and retain require
 This work is part of a Qiskit-based project and complies with **IBM licensing policies.**
 **The extended codebase is released under the MIT License, allowing free use, modification, and distribution.**
 
-**This Project was promised to teach and help through guidance and mentorship under Mahdy Research Academy’s private thesis program  📌 after taking approximately 70,000 BDT, (shared among 6 participants for Part A and Part B); however, 📌 The code implementation and quantum machine learning components were self-learned from Qiskit repositories and were not guided or assisted by the academy. 📌 📌 The initial research idea provided by the academy was AI-generated.📌**
-
 
 
 ABSTRACT
