@@ -55,13 +55,6 @@ Component Analysis (PCA) · Angle Encoding
 Show Credential -> https://drive.google.com/file/d/1-5mi_wkRmRuKz_74nkxE0eW0AWyi9Qs8/view?usp=drive_link
 
 
- 📌 📌 **YE Junayed also altered our paper and instead of working he generated the paper with AI and sent it to the faculty** 📌 📌
-
-
-**OUR SUBMITTED VERSION WAS:** https://drive.google.com/file/d/1ygoRKgI6YufTgNF7jUXddvROEdU3F7aL/view?usp=sharing
-
-https://drive.google.com/file/d/1ychEnbNqdIjzcXbWmxaEszjn52sH9aMU/view?usp=sharing
-
 
 
 
