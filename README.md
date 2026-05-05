@@ -36,7 +36,7 @@ Component Analysis (PCA) · Angle Encoding
 
 **📌 All coding and writing were carried out independently by the authors (Md. Shakhawat Hossain and Md. Mehedi Hasan), based on publicly available resources including this video tutorial: https://www.youtube.com/watch?v=IohyKm9c4_Q and relevant blog posts https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html, https://files.batistalab.com/teaching/attachments/chem584/vic_hqcnn.pdf 📌 and not by the Academy; 📌 modified code retains Apache 2.0 notices and the extended codebase is released under the MIT License.** 📌
 
-<img width="421" height="199" alt="Screenshot 2026-05-04 210724" src="https://github.com/user-attachments/assets/93b2a202-ba08-4b9a-9994-9ff08fb470df" />
+
 
 📌 📌 The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem. 📌 📌
 
