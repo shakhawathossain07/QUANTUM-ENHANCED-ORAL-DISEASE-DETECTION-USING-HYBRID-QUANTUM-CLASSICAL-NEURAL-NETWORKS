@@ -2,7 +2,7 @@
 
 ## 📜 Disclaimer
 
-📌 📌  **The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem.** 📌 📌 
+📌 **The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem.**  📌 
 This project builds upon the Quantum Convolutional Neural Network (QCNN) framework by Isaac Cong et al., **with implementations adapted from IBM’s Qiskit.
 Parts of the code are modified from original Qiskit resources and retain required Apache License 2.0 notices and attributions.**
 This work is part of a Qiskit-based project and complies with **IBM licensing policies.**
@@ -32,11 +32,9 @@ Keywords Quantum Machine Learning · Hybrid Quantum-Classical Neural Networks (H
 Convolution Neural Networks (QCNN) · Oral Diseases Detection · Parameterized Quantum Circuits · Principal
 Component Analysis (PCA) · Angle Encoding
 
-**📌 All coding and writing were carried out independently by the authors (Md. Shakhawat Hossain and Md. Mehedi Hasan), based on publicly available resources including this video tutorial: https://www.youtube.com/watch?v=IohyKm9c4_Q and relevant blog posts https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html, https://files.batistalab.com/teaching/attachments/chem584/vic_hqcnn.pdf 📌 modified code retains Apache 2.0 notices and the extended codebase is released under the MIT License.** 📌
+**📌 All coding and writing were carried out independently by the authors (Md. Shakhawat Hossain and Md. Mehedi Hasan), based on publicly available resources including this video tutorial: https://www.youtube.com/watch?v=IohyKm9c4_Q and relevant blog posts https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html, https://files.batistalab.com/teaching/attachments/chem584/vic_hqcnn.pdf modified code retains Apache 2.0 notices and the extended codebase is released under the MIT License. 📌** 
 
 
-
-📌 📌 The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem. 📌 📌
 
 <img width="596" height="778" alt="Screenshot 2026-05-05 152833" src="https://github.com/user-attachments/assets/3af4f9fb-37ba-4df3-b279-117ab0c4b8e1" />
 
