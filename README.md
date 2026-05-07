@@ -1,5 +1,4 @@
-# QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS (In Revision)
-
+# QUANTUM-ENHANCED ORAL DISEASE DETECTION USING HYBRID QUANTUM-CLASSICAL NEURAL NETWORKS 
 ## 📜 Disclaimer
 
 📌 **The underlying code is not proprietary to any individual but originates from IBM’s open-source Qiskit ecosystem.**  📌 
