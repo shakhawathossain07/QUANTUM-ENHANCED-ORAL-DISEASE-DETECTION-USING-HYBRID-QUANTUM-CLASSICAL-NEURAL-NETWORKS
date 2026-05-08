@@ -7,7 +7,7 @@ Parts of the code are modified from original Qiskit resources and retain require
 This work is part of a Qiskit-based project and complies with **IBM licensing policies.**
 **The extended codebase is released under the MIT License, allowing free use, modification, and distribution.**
 
-
+PrePrint: https://www.preprints.org/manuscript/202605.0525
 
 ABSTRACT
 
@@ -45,7 +45,12 @@ Component Analysis (PCA) · Angle Encoding
 
 Show Credential -> https://drive.google.com/file/d/1-5mi_wkRmRuKz_74nkxE0eW0AWyi9Qs8/view?usp=drive_link
 
-
-
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/2ba22515-101e-4ddb-bc3f-3bc0c89da3f2"
+    alt="image"
+    width="100%"
+  />
+</p>
 
 
