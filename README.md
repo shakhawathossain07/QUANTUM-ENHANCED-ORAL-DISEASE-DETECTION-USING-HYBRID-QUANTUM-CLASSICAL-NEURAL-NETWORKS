@@ -45,12 +45,5 @@ Component Analysis (PCA) · Angle Encoding
 
 Show Credential -> https://drive.google.com/file/d/1-5mi_wkRmRuKz_74nkxE0eW0AWyi9Qs8/view?usp=drive_link
 
-<p align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/2ba22515-101e-4ddb-bc3f-3bc0c89da3f2"
-    alt="image"
-    width="100%"
-  />
-</p>
 
 
